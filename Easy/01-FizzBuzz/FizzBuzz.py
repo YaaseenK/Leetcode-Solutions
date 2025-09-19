@@ -8,6 +8,9 @@ class Solution(object):
         for i in range(1, n + 1):
             if i % 3 == 0 and i % 5 == 0:
                 results.append("FizzBuzz")
+            elif i % 3 == 0:
+                results.append("Fizz")
+
             else: results.append(i)
         
         print(results)
