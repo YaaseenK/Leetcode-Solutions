@@ -13,7 +13,7 @@ class Solution(object):
 
             else: results.append(i)
         
-        print(results)
+        return results
 
 s = Solution()
 print(s.fizzBuzz(30))
