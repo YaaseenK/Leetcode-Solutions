@@ -6,8 +6,8 @@ class Solution(object):
         """
         results = []
         for i in range(1, n + 1):
-            if i % 3 == 0:
-                results.append("Fizz")
+            if i % 3 == 0 and i % 5 == 0:
+                results.append("FizzBuzz")
             else: results.append(i)
         
         print(results)
