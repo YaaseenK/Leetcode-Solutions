@@ -15,4 +15,5 @@ class Solution(object):
         
         print(results)
 
-    fizzBuzz(10, 30)
+s = Solution()
+print(s.fizzBuzz(30))
