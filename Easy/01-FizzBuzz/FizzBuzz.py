@@ -13,7 +13,7 @@ class Solution(object):
             elif i % 5 == 0:
                 results.append("Buzz")
 
-            else: results.append(i)
+            else: results.append(str(i))
         
         return results
 
