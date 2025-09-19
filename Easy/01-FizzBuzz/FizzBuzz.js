@@ -19,7 +19,7 @@ var fizzBuzz = function(n) {
         }
         // if non of those conditions are met then push i to the array.
         else {
-            result.push(i)
+            result.push(i.toString())
         }
     }
     console.log(result) ;
