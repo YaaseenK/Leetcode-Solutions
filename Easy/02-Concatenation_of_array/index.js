@@ -14,7 +14,7 @@ var getConcatenation = function(nums) {
             // populate the second half of the array with same element
             // n + i shifts the index into the second half of the array. 
             // example: if n=3; i=0 -> ans[3] = num[i]
-            ans[i] = num[i]
+            ans[i+n] = nums[i]
         }
         console.log(ans)
     }
