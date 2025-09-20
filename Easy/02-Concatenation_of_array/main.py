@@ -4,6 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
+        # find the length of nums 
+        n = len(nums)
+        return n
+        
 
 
 s = Solution()
