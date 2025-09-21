@@ -1,6 +1,6 @@
-from typing import List
+
 class Solution(object):
-    def getConcatenation(self, nums: List[int]) -> List[int]:
+    def getConcatenation(self, nums):
         """
         :type nums: List[int]
         :rtype: List[int]
@@ -12,7 +12,7 @@ class Solution(object):
         for i in range(n):
             ans[i] = nums[i]
             ans[i+n] = nums[i]
-            return ans
+        return ans
 
 
 s = Solution()
