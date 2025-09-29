@@ -13,3 +13,7 @@ var twoSum = function(nums, target) {
     }
     console.log(map)
 } 
+
+let aray = [3, 5, 6, 7, 8, 9, -4]
+let target = 10
+twoSum(aray, target)
