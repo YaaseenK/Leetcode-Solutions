@@ -19,9 +19,11 @@ var twoSum = function(nums, target) {
     for (let i = 0; i < n; i++ ){
         const complement = t - nums[i]  // *x + y = t WRITTEN as x = t - y* 
         // console.log('i right now:'  + i )
-        console.log('complement: ' + map.get(complement))
+        // console.log('complement: ' + map.get(complement))
+        // check to see if our map contains the key AND that the current and key indices arent a match 
         if(map.has(complement) && map.get(complement) !== i){
-            return console.log('completment:' + complement + ' i:' + nums[i])
+            // once the algorithm has found the value pair which satisfy the target we return the indices of the each value pair respectively 
+            return console.log([map.get(complement) , i])
         }
         
     }
