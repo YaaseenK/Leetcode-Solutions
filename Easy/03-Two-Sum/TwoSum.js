@@ -15,6 +15,7 @@ var twoSum = function(nums, target) {
     for (let i = 0; i < n; i++){
         map.set(nums[i], i)  // set the keys and values to our map
     }
+    console.log(map) 
     // for loop to itterate through the length of the array
     for (let i = 0; i < n; i++ ){
         const complement = t - nums[i]  // *x + y = t WRITTEN as x = t - y* 
