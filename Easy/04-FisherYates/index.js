@@ -27,6 +27,9 @@ for (i = 0; i <= 10; i++){
 }
 
 function shuff (arr) {
-    
+
 }
 
+function randInt(maxExclusive) {
+    
+}
