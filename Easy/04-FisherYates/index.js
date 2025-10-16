@@ -20,4 +20,9 @@
 
 // console.log(shuff(arr));
 
-let arr = []
+let arr = [];
+
+for (i = 0; i <= 10; i++){
+    arr.push(i)
+}
+console.log(arr)
