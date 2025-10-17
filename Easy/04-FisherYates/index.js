@@ -40,3 +40,7 @@
 
 // console.log(shuff(arr))
 
+let arr = [];
+
+
+
