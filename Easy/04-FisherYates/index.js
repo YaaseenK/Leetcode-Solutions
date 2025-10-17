@@ -20,16 +20,23 @@
 
 // console.log(shuff(arr));
 
-let arr = [];
+// let arr = [];
 
-for (i = 0; i <= 10; i++){
-    arr.push(i)
-}
+// for (let i = 0; i <= 10; i++){
+//     arr.push(i)
+// }
 
-function shuff (arr) {
+// function shuff (arr) {
+//     for (let i = arr.length - 1; i >= 0; i--){
+//         const j = randInt(i + 1);
+//         [arr[i], arr[j]] = [arr[j], arr[i]];
+//     }
+//     return arr;
+// }
 
-}
+// function randInt(maxExclusive) {
+//     return Math.floor(Math.random() * maxExclusive)
+// }
 
-function randInt(maxExclusive) {
-    
-}
+// console.log(shuff(arr))
+
