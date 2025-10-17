@@ -41,11 +41,20 @@
 // console.log(shuff(arr))
 
 let arr = [];
+// O(n) time complexity
 for (let i = 0; i < 10; i++){
     arr.push(i);
 }
 
-console.log(arr)
+// shuffle the array 
+
+function shuffle (arr) {
+    for (i = arr.length - 1; i >= 0; i--){
+        console.log(i)
+    }
+}
+
+shuffle(arr);
 
 
 
