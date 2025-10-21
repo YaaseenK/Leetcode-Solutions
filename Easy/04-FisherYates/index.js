@@ -52,6 +52,8 @@ function shuffle (arr) {
     for (i = arr.length - 1; i >= 0; i--){
         const j = randInt(i + 1);
         [arr[i], arr[j]] = [arr[j], arr[i]];
+        // ... gets interpreted byt JavaScript engine as one continuous expression:
+        // const j = randInt(i + 1)[arr[i], arr[j]] = [arr[j], arr[i]];
     }
     return arr;
 }
@@ -60,7 +62,17 @@ function randInt(maxExclusive){
     return Math.floor(Math.random() * maxExclusive);
 }
 
-console.log(shuffle(arr))
+console.log(shuffle(arr));
 
 
+
+// // JavaScript adds semicolons automatically at the end of a line if it thinks one is missing;
+// let x = 1
+// let y = 2
+// console.log(x + y)
+
+// // JavaScript treats that as if you worte:
+// let x = 1;
+// let y = 2;
+// console.log(x + y);
 
